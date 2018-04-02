@@ -2,8 +2,14 @@
 <html>
 <head><title>index</title></head>
 <body>
-<a href  ="index.html">index.html</a>
-<a href  ="editor.php">editor.php</a>
+    <ul>
+<li><a href = "../calculator/">Calculator</a></li>
+<li><a href = "../geometron/">Geometron</a></li>
+<li><a href = "../geometron/svg/">Graphics Feed</a></li>
+<li><a href = "editor.php">Editor.php</a></li>
+<li><a href = "tale.html">Tale</a></li>
+    </ul>
+
 <h1>Lore.html</h1>
 <h2>What is Lore?</h2>
 <p>
@@ -188,7 +194,7 @@ h1,h2,h3,h4{
 body{
     text-align:justify;
     padding:1em 1em 1em 1em;
-    font-size:18px;
+    font-size:22px;
 }
 pre{
     width:90%;

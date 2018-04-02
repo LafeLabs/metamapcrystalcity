@@ -129,14 +129,25 @@ function xy2latlon(xyin){
 <div id = "page">
 
 <!--    comment or uncomment in case of using php to edit things live or not:-->
-
+<div  class = "topbox">
 <a  id = "editlink" href = "editor.php">Editor</a>
 <a  id = "helplink" href = "../">Up one level</a>
+<a href = "../scrolls/tale.html">Tale</a>
+<a href = "../scrolls/lore.html">Lore</a>
+<a href = "../geometron/">Geometron</a>
+<a href = "../geometron/svg/">Graphics Feed</a>
+
+#metamapcrystalcity @(0,0) = VRE sign at North end of Water Park, at (38.8895,-77.0352), unit = 100 yards = 300 feet
+
+</div>
+<br/>
 
     <div class = "bigbox">
+
         Lattitude,Longitude:
         <input id = "latloninput" value = "38.8895,-77.0352"/>
     </div>
+    <br/>
     <div class = "bigbox">
         x,y:
         <input id = "wminput" value = "0,0"/>
@@ -153,17 +164,20 @@ document.getElementById("wminput").onchange = function(){
 </script>
 <style>
 
-#editlink{
-     position:absolute;
-     left:80%;
-     top:2px;
-     z-index:2;
+a{
+    float:left;
+    margin:0.5em 0.5em 0.5em 0.5em;
 }
-#helplink{
-     position:absolute;
-     left:10%;
-     top:2px;
-     z-index:2;
+
+.topbox{
+    font-size:22px;
+    font-family:courier;
+    text-align:center;
+    padding:1em 1em 1em 1em;
+    width:70%;
+    border:solid;
+    display:block;
+    margin:auto;
 }
 .bigbox{
     border:solid;
