@@ -18,14 +18,6 @@ currentGlyph = currentTable[currentAddress] + ",0207,";
 unit = 100;
 
 currentJSON = JSON.parse(document.getElementById("jsondata").innerHTML);
-data05xx = JSON.parse(document.getElementById("imagedata").innerHTML);
-for(var index = 0;index < data05xx.length;index++){
-    var newimg = document.createElement("IMG");    
-    newimg.src = data05xx[index].url;    
-    newimg.id = "img" + data05xx[index].address;    
-    newimg.style.display = "none";
-    document.getElementById("page").appendChild(newimg);
-}
 
 currentAddress = parseInt(currentJSON.currentAddress,8);
 currentTable[currentAddress] = currentJSON.glyph;

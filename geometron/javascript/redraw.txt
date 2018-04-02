@@ -1,12 +1,6 @@
-for(var index = 0;index < data05xx.length;index++){
-    document.getElementById("img" + data05xx[index].address).style.display = "none";
-}
 
 
 
-for(var index = 0;index < boxes.length;index++){
-    boxes[index].style.display = "none";
-}
 
         var glyphArray = currentGlyph.split(",");
         currentTable[currentAddress] = "";
