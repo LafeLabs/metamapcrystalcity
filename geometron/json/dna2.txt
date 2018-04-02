@@ -16,7 +16,6 @@
 "javascript/topfunctions.txt",
 "json/currentjson.txt",
 "json/dna.txt",
-"json/dna2.txt",
 "php/dnagenerator.txt",
 "php/editor.txt",
 "php/feedsaver.txt",

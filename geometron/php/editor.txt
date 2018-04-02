@@ -6,6 +6,7 @@
 <body>
         <a href = "text2php.php" id = "text2phplink">text2php.php</a>
     <a href = "index.php" id = "indexlink">index.php</a>
+    <a href = "dnagenerator.php" id = "generatorlink">dnagenerator.php</a>
 
 <div id = "namediv"></div>
 <div id="maineditor"></div>
@@ -199,7 +200,12 @@ body{
     top:1em;
     color:white;
 }
-
+#generatorlink{
+    position:absolute;
+    left:60%;
+    top:1em;
+    color:white;
+}
 </style>
 </body>
 </html>
