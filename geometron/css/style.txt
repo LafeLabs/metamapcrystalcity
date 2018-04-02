@@ -1,0 +1,116 @@
+ #page{
+     position:absolute;
+     left:0px;
+     top:0px;
+     bottom:0px;
+     right:0px;
+     overflow:hidden;
+ }
+ #svglink{
+     position:absolute;
+     left:50%;
+     top:10px;
+     z-index:2;
+}
+#svgfeedlink{
+     position:absolute;
+     left:60%;
+     top:10px;
+     z-index:2;
+}
+#rootlink{
+    position:absolute;
+     left:30%;
+     top:10px;
+     z-index:2;
+}
+#wmcalc{
+    position:absolute;
+    left:30%;
+    top:2em;
+    z-index:2;
+}
+
+ #textIO{
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:0px;
+    bottom:0px;
+    border:solid;
+}
+#mainCanvas{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+#controlTable{
+    left:15px;
+    top:15px;
+}
+#imageTable{
+    left:15px;
+    top:8em;
+}
+#imageTable input{
+    width:5em;
+    font-family:courier;
+}
+#calcTable input{
+    font-family:courier;
+}
+table{
+    font-family:courier;
+    font-size:18;
+    position:absolute;
+}
+#calcTable{
+    right:1em;
+    top:1em;
+}
+#controlTable input{
+    width:3em;
+    font-family:courier;
+}
+.button{
+    padding:0.5em 0.5em 0.5em 0.5em;
+    font-family:courier;
+    cursor:pointer;
+    border:solid;
+    border-radius:0.5em;
+}
+.button:hover{
+    background-color:green;
+}
+.button:active{
+    background-color:yellow;
+}
+#keyboardlink{
+    position:absolute;
+    right:5%;
+    bottom:5%;
+}
+#glyphspellinput{
+    position:absolute;
+    bottom:20px;
+    left:150px;
+    right:50px;
+    font-family:courier;
+    font-size:16px;
+}
+#buttonTable{
+    position:absolute;
+    left:15px;
+    top:50%;
+}
+img{
+    position:absolute;
+    z-index:-2;
+}
+.box{
+    position:absolute;
+    z-index:2;
+}
+#scroll{
+    display:none;
+}

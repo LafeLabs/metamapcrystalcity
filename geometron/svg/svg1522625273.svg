@@ -1,0 +1,39 @@
+<svg width="1356" height="672" viewbox = "0 0 1356 672"  xmlns="http://www.w3.org/2000/svg">
+
+<!--
+<json>
+{
+    "glyph": "0333,0333,0337,0331,0331,0332,0332,0332,0332,0332,0332,0331,0310,0337,0313,0220,0220,0220,0333,0331,0331,0331,0221,0333,0222,0333,0324,0223,0223,0223,0333,0331,0331,0331,0336,0332,0337,0326,0336,0336,0336,0332,0332,0332,0337,0337,0337,0223,0223,0223,0333,0331,0320,0331,0331,0333,0224,0224,0224,0331,0333,0333,0331,0331,0225,0333,0333,",
+    "unit": 35.04938994813922,
+    "x0": 683,
+    "y0": 250,
+    "x0rel": 0.1426558353055001,
+    "y0rel": -2.453680367254602,
+    "imgurl": "",
+    "imgw": 2,
+    "imgleft": -1.5,
+    "imgtop": -1
+}
+</json>
+-->
+    <line x1="333" y1="460" x2="345" y2="460" style="stroke:#000000;stroke-width:2" />
+    <line x1="333" y1="460" x2="320" y2="460" style="stroke:#000000;stroke-width:2" />
+    <line x1="333" y1="460" x2="333" y2="361" style="stroke:#000000;stroke-width:2" />
+    <line x1="333" y1="361" x2="345" y2="361" style="stroke:#000000;stroke-width:2" />
+    <line x1="333" y1="361" x2="320" y2="361" style="stroke:#000000;stroke-width:2" />
+    <line x1="333" y1="361" x2="333" y2="262" style="stroke:#000000;stroke-width:2" />
+    <line x1="333" y1="262" x2="345" y2="262" style="stroke:#000000;stroke-width:2" />
+    <line x1="333" y1="262" x2="320" y2="262" style="stroke:#000000;stroke-width:2" />
+    <line x1="333" y1="262" x2="333" y2="163" style="stroke:#000000;stroke-width:2" />
+    <circle cx="432" cy = "460" r = "6.195915327195215" stroke = "#000000" stroke-width = "2" fill = "#000000" />
+    <line x1="432" y1="460" x2="449" y2="443" style="stroke:#000000;stroke-width:2" />
+    <line x1="432" y1="460" x2="449" y2="478" style="stroke:#000000;stroke-width:2" />
+    <line x1="432" y1="460" x2="414" y2="478" style="stroke:#000000;stroke-width:2" />
+    <line x1="432" y1="460" x2="414" y2="443" style="stroke:#000000;stroke-width:2" />
+	<path d = "M556 485 L556 436 L506 436 L506 485 L556 485 Z" stroke = "#000000" stroke-width = "2" fill = "#000000" />    <text x="518" y = "473" fill = "white" font-size = "24.78366130878086px" font-family = "futura">M</text>
+	<path d = "M630 460 L624 460 L624 361 L636 361 L636 460 L630 460 Z" stroke = "yellow" stroke-width = "2" fill = "yellow" />	<path d = "M630 361 L624 361 L624 262 L636 262 L636 361 L630 361 Z" stroke = "yellow" stroke-width = "2" fill = "yellow" />	<path d = "M630 262 L624 262 L624 163 L636 163 L636 262 L630 262 Z" stroke = "yellow" stroke-width = "2" fill = "yellow" />	<path d = "M642 460 L636 460 L636 361 L648 361 L648 460 L642 460 Z" stroke = "blue" stroke-width = "2" fill = "blue" />	<path d = "M642 361 L636 361 L636 262 L648 262 L648 361 L642 361 Z" stroke = "blue" stroke-width = "2" fill = "blue" />	<path d = "M642 262 L636 262 L636 163 L648 163 L648 262 L642 262 Z" stroke = "blue" stroke-width = "2" fill = "blue" />	<path d = "M828 460 L828 361 L822 361 L822 460 L828 460 Z" stroke = "black" stroke-width = "2" fill = "black" />	<path d = "M853 460 L853 361 L859 361 L859 460 L856 460 Z" stroke = "black" stroke-width = "2" fill = "black" />	<path d = "M828 361 L828 262 L822 262 L822 361 L828 361 Z" stroke = "black" stroke-width = "2" fill = "black" />	<path d = "M853 361 L853 262 L859 262 L859 361 L856 361 Z" stroke = "black" stroke-width = "2" fill = "black" />	<path d = "M828 262 L828 163 L822 163 L822 262 L828 262 Z" stroke = "black" stroke-width = "2" fill = "black" />	<path d = "M853 262 L853 163 L859 163 L859 262 L856 262 Z" stroke = "black" stroke-width = "2" fill = "black" />    <line x1="1088" y1="510" x2="1088" y2="411" style="stroke:black;stroke-width:2" />
+    <line x1="1088" y1="411" x2="989" y2="411" style="stroke:black;stroke-width:2" />
+    <line x1="989" y1="411" x2="989" y2="510" style="stroke:black;stroke-width:2" />
+    <line x1="989" y1="510" x2="1088" y2="510" style="stroke:black;stroke-width:2" />
+    <text x="1002" y = "485" fill = "black" font-size = "33.09615439063475px" font-family = "futura">US1</text>
+</svg>
