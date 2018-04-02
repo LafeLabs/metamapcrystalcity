@@ -1,9 +1,8 @@
 <?php
-    $url = "https://raw.githubusercontent.com/LafeLabs/metamapcrystalcity/master/geometron/json/dna2.txt";
-    $dnaraw = file_get_contents($url);
-    $dna =json_decode($dnaraw);
-    $baseurl = explode("json",$url)[0];
   
+    $dnaraw = file_get_contents("json/dna2.txt");
+    $dna =json_decode($dnaraw);
+
 ?>
 <!doctype html>
 <html>
@@ -17,7 +16,7 @@ PUBLIC DOMAIN, NO COPYRIGHTS, NO PATENTS.
 <?php
 foreach ($dna as $value) {
     if(explode("/",$value)[0]   == "bytecode"){
-        echo file_get_contents($baseurl.$value)."\n";
+        echo file_get_contents($value)."\n";
     }    
 }
 ?>
@@ -27,7 +26,7 @@ foreach ($dna as $value) {
 <?php
 foreach ($dna as $value) {
     if(explode("/",$value)[1]   == "topfunctions.txt"){
-        echo file_get_contents($baseurl.$value)."\n";
+        echo file_get_contents($value)."\n";
     }    
 }
 
@@ -52,13 +51,13 @@ function doTheThing(localCommand){
 
     foreach ($dna as $value) {
         if(explode("/",$value)[1]   == "actions03xx.txt"){
-            echo file_get_contents($baseurl.$value)."\n";
+            echo file_get_contents($value)."\n";
         }    
     }
     echo "\n";
     foreach ($dna as $value) {
         if(explode("/",$value)[1]   == "actions0xx.txt"){
-            echo file_get_contents($baseurl.$value)."\n";
+            echo file_get_contents($value)."\n";
         }    
     }
     echo "\n";
@@ -69,7 +68,7 @@ function doTheThing(localCommand){
 <?php
     foreach ($dna as $value) {
         if(explode("/",$value)[1]   == "jslibrary.txt"){
-            echo file_get_contents($baseurl.$value)."\n";
+            echo file_get_contents($value)."\n";
         }    
     }
 ?>
@@ -86,7 +85,7 @@ function doTheThing(localCommand){
 
     foreach ($dna as $value) {
         if(explode("/",$value)[1]   == "page.txt"){
-            echo file_get_contents($baseurl.$value)."\n";
+            echo file_get_contents($value)."\n";
         }    
     }
 
@@ -100,7 +99,7 @@ function init(){
 <?php
     foreach ($dna as $value) {
         if(explode("/",$value)[1] == "init.txt"){
-            echo file_get_contents($baseurl.$value)."\n";
+            echo file_get_contents($value)."\n";
         }    
     }
 ?>
@@ -112,7 +111,7 @@ function redraw(){
 <?php
     foreach ($dna as $value) {
         if(explode("/",$value)[1] == "redraw.txt"){
-            echo file_get_contents($baseurl.$value)."\n";
+            echo file_get_contents($value)."\n";
         }    
     }
 ?>
@@ -122,19 +121,21 @@ function redraw(){
 <?php
    foreach ($dna as $value) {
         if(explode("/",$value)[1] == "pageevents.txt"){
-            echo file_get_contents($baseurl.$value)."\n";
+            echo file_get_contents($value)."\n";
         }    
     }
 ?>
 </script>
 <?php
+  
     echo "<style>\n";
     foreach ($dna as $value) {
         if(explode("/",$value)[1] == "style.txt"){
-            echo file_get_contents($baseurl.$value)."\n";
+            echo file_get_contents($value)."\n";
         }    
-    }?>
+    }
     echo "</style>\n";
+    
 ?>
 </body>
 </html>

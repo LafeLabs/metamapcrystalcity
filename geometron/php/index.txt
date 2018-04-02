@@ -1,7 +1,8 @@
 <?php
+  
     $dnaraw = file_get_contents("json/dna.txt");
     $dna =json_decode($dnaraw);
-    
+
 ?>
 <!doctype html>
 <html>
@@ -13,25 +14,22 @@ PUBLIC DOMAIN, NO COPYRIGHTS, NO PATENTS.
 <script id = "bytecodeScript">
 /*
 <?php
-
-for($x = 0; $x < count($dna); $x++) {
-    if($dna[$x] -> type == "bytecode"){
-        echo file_get_contents($dna[$x] -> url)."\n";
+foreach ($dna as $value) {
+    if(explode("/",$value)[0]   == "bytecode"){
+        echo file_get_contents($value)."\n";
     }    
 }
-
 ?>
 */
 </script>
 <script id = "topfunctions">
 <?php
+foreach ($dna as $value) {
+    if(explode("/",$value)[1]   == "topfunctions.txt"){
+        echo file_get_contents($value)."\n";
+    }    
+}
 
-    for($x = 0; $x < count($dna); $x++) {
-        if($dna[$x] -> name == "topfunctions"){
-            echo file_get_contents($dna[$x] -> url);
-        }    
-    }
-    
 ?>   
 </script>
 <script id = "actions">
@@ -51,28 +49,26 @@ function doTheThing(localCommand){
 
     <?php
 
-            for($x = 0; $x < count($dna); $x++) {
-                if($dna[$x] -> name == "actions03xx"){
-                    echo file_get_contents($dna[$x] -> url);
-                }    
-            }
-            echo "\n";
-            for($x = 0; $x < count($dna); $x++) {
-                if($dna[$x] -> name == "actions0xx"){
-                    echo file_get_contents($dna[$x] -> url);
-                }    
-            }
-            echo "\n";
-
-        
+    foreach ($dna as $value) {
+        if(explode("/",$value)[1]   == "actions03xx.txt"){
+            echo file_get_contents($value)."\n";
+        }    
+    }
+    echo "\n";
+    foreach ($dna as $value) {
+        if(explode("/",$value)[1]   == "actions0xx.txt"){
+            echo file_get_contents($value)."\n";
+        }    
+    }
+    echo "\n";
     ?>    
 }
 </script>
 
 <?php
-    for($x = 0; $x < count($dna); $x++) {
-        if($dna[$x] -> name == "jslibrary"){
-            echo file_get_contents($dna[$x] -> url);
+    foreach ($dna as $value) {
+        if(explode("/",$value)[1]   == "jslibrary.txt"){
+            echo file_get_contents($value)."\n";
         }    
     }
 ?>
@@ -87,12 +83,12 @@ function doTheThing(localCommand){
 <div id = "page">
 <?php
 
-    for($x = 0; $x < count($dna); $x++) {
-        if($dna[$x] -> name == "page"){
-            echo file_get_contents($dna[$x] -> url);
+    foreach ($dna as $value) {
+        if(explode("/",$value)[1]   == "page.txt"){
+            echo file_get_contents($value)."\n";
         }    
     }
-    
+
 ?>
 </div>
 <script>
@@ -101,9 +97,9 @@ function doTheThing(localCommand){
 init();
 function init(){
 <?php
-    for($x = 0; $x < count($dna); $x++) {
-        if($dna[$x] -> name == "init"){
-            echo file_get_contents($dna[$x] -> url);
+    foreach ($dna as $value) {
+        if(explode("/",$value)[1] == "init.txt"){
+            echo file_get_contents($value)."\n";
         }    
     }
 ?>
@@ -113,9 +109,9 @@ function init(){
 redraw();
 function redraw(){
 <?php
-    for($x = 0; $x < count($dna); $x++) {
-        if($dna[$x] -> name == "redraw"){
-            echo file_get_contents($dna[$x] -> url);
+    foreach ($dna as $value) {
+        if(explode("/",$value)[1] == "redraw.txt"){
+            echo file_get_contents($value)."\n";
         }    
     }
 ?>
@@ -123,21 +119,23 @@ function redraw(){
 </script>
 <script id = "pageevents">
 <?php
-    for($x = 0; $x < count($dna); $x++) {
-        if($dna[$x] -> name == "pageevents"){
-            echo file_get_contents($dna[$x] -> url);
+   foreach ($dna as $value) {
+        if(explode("/",$value)[1] == "pageevents.txt"){
+            echo file_get_contents($value)."\n";
         }    
     }
 ?>
 </script>
 <?php
+  
     echo "<style>\n";
-    for($x = 0; $x < count($dna); $x++) {
-        if($dna[$x] -> name == "style"){
-            echo file_get_contents($dna[$x] -> url);
+    foreach ($dna as $value) {
+        if(explode("/",$value)[1] == "style.txt"){
+            echo file_get_contents($value)."\n";
         }    
     }
     echo "</style>\n";
+    
 ?>
 </body>
 </html>

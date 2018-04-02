@@ -31,7 +31,6 @@
 
     <div class = "php file">php/editor.txt</div>
     <div class = "php file">php/index.txt</div>
-    <div class = "php file">php/index2.txt</div>
     <div class = "php file">php/replicator.txt</div>
     <div class = "php file">php/filesaver.txt</div>
     <div class = "php file">php/fileloader.txt</div>
@@ -40,7 +39,6 @@
     <div class = "php file">php/dnagenerator.txt</div>
 
     <div class = "json file">json/dna.txt</div>
-    <div class = "json file">json/dna2.txt</div>
     <div class = "json file">json/currentjson.txt</div>
     <div class = "json file">json/imagedata.txt</div>
 
